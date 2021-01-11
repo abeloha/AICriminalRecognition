@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="image">
+    <file>white.png</file>
+    <file>bg1.jpg</file>
+    <file>user.png</file>
+    <file>folder.png</file>
+    <file>photo.png</file>
+    <file>search.png</file>
+  </qresource>
+</RCC>

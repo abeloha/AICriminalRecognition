@@ -2,7 +2,7 @@
 
 ### abeloha: AICriminalRecognitionSystem python app for managing creminal records using AI.
 
-This is a python project for managing criminal records. It uses image recorgintion libraries to train the system with a folder of images of a criminal. The sytem can then recorgnise that same criminal by his/her photo and pull his/her records fron the database. 
+This is a python project for managing criminal records. It uses image recognition libraries to train the system with a folder of images of a criminal. The system can then recognise that same criminal by his/her photo and pull his/her records from the database. 
 
 The project uses python for backend, PyQt5 is used for User Interface, and SQLite is used for database.
 
@@ -16,7 +16,10 @@ The project uses python for backend, PyQt5 is used for User Interface, and SQLit
 
 1. run main.py.
 2. password: Admin.
-3. Note: There are advanced feature which you can unclock, if not unlocked already, type this in the password: _UNLOCK_ 
+
+Note: 1. There are advanced feature which you can unlock, if not unlocked already, type this in the password: _UNLOCK_ 
+    2. The "/test image" directory contains image of a person the system has been trained with. Use the image to run a search.
+
 
 Need help? contact me at abonuoha@gmail.com
 
