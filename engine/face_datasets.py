@@ -20,6 +20,9 @@ def execute_face_datasets(face_id, path):
     fn.assure_path_exists("data_images/")
     imagePaths = fn.get_images(path)
     for imagePath in imagePaths:       
+            
+            print (imagePath)
+            
             image_frame = cv2.imread(imagePath)
             # Convert frame to grayscale
             gray = cv2.cvtColor(image_frame, cv2.COLOR_BGR2GRAY)

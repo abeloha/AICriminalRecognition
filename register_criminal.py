@@ -147,6 +147,7 @@ class Ui(QtWidgets.QDialog):
         return id
     
     def prepare_face_dataset(self,id,path):
+        print(path)
         return ds.execute_face_datasets(id,path)
 
     def clear_all_input(self):

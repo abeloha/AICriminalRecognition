@@ -14,6 +14,10 @@ def assure_path_exists(path):
 def get_images(path):
     imagePaths = []
     for root, dirs, files in os.walk(os.path.abspath(path)):
+
+        # Exclude hidden files (those starting with a dot)
+        files = [file for file in files if not file.startswith('.')]
+        
         for file in files:
             imagePaths.append(os.path.join(root, file))
             #print(os.path.join(root, file))

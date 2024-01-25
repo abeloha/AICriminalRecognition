@@ -358,7 +358,7 @@
     <rect>
      <x>250</x>
      <y>560</y>
-     <width>121</width>
+     <width>151</width>
      <height>17</height>
     </rect>
    </property>
@@ -376,7 +376,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Note: You must train system face model first before this new face can be recognised by the system&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Note: You must train system face model before this new face can be recognised&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>

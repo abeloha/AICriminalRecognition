@@ -335,7 +335,7 @@
     <rect>
      <x>10</x>
      <y>630</y>
-     <width>111</width>
+     <width>151</width>
      <height>23</height>
     </rect>
    </property>
@@ -346,9 +346,9 @@
   <widget class="QPushButton" name="add_offenceBtn">
    <property name="geometry">
     <rect>
-     <x>680</x>
+     <x>650</x>
      <y>460</y>
-     <width>71</width>
+     <width>105</width>
      <height>23</height>
     </rect>
    </property>
