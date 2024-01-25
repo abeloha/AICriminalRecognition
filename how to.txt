@@ -1,0 +1,22 @@
+
+# First thing first download python and install it (https://www.python.org/)
+
+
+#Create a virtual environment 
+python -m venv myenv
+
+# Activate the virtual environment
+
+# Windows
+myenv\Scripts\activate
+# macOS and Linux
+source myenv/bin/activate
+
+
+
+# Then install the dependencies in the requirements.txt
+pip install -r requirements.txt
+
+
+# Subsequently, simply activate your environment and run the software
+

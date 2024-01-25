@@ -25,6 +25,8 @@
 .build/
 /build/
 
+/myenv/
+
 # Web related
 lib/generated_plugin_registrant.dart
 
